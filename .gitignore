@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# Node (per dopo quando faremo il frontend)
+node_modules/
